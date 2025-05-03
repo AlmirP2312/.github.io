@@ -235,3 +235,26 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
+
+
+/* Sakrij mobilni meni na desktopu */
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none !important;
+  }
+}
+
+/* Prikaz mobilnog menija na manjim uređajima */
+@media (max-width: 767px) {
+  .mobile-nav {
+    display: flex !important;
+  }
+}
+
+/* Poboljšan kontrast teksta */
+body {
+  color: #003B73; /* tamno plava na svijetloj podlozi */
+}
+.hero-text h1, .hero-text p, .cta, h2, h3, .feature p, .feature h3 {
+  color: #003B73 !important;
+}
