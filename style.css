@@ -159,6 +159,28 @@ footer a {
   flex-direction: column;
   align-items: center;
 }
+
+.mobile-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #D6FF00; /* drecavo zelena pozadina */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem 0;
+  z-index: 999;
+}
+.mobile-nav a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
 .mobile-nav i {
   font-size: 1.2rem;
   margin-bottom: 0.25rem;
