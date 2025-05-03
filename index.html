@@ -1,131 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Barmenia Zahnzusatzversicherung</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barmenia Zahnzusatzversicherung</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- removed sidebar -->
-    <a href="#"><i class="fas fa-phone"></i> Kontakt</a>
-    <a href="#"><i class="fas fa-search"></i> Suche</a>
-    <a href="#"><i class="fas fa-bars"></i> Produkte</a>
-    <a href="#"><i class="fas fa-user"></i> Meine Barmenia</a>
-    <a href="#"><i class="fas fa-map-marker-alt"></i> Vor Ort</a>
-  </aside>
-
-  <header>
-  <!-- removed top-nav -->
-    <a href="#">Startseite</a>
-    <a href="#">Über uns</a>
-    <a href="#leistungen">Leistungen</a>
-    <a href="#">FAQ</a>
-    <a href="#">Kontakt</a>
-  </nav>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Barmenia_logo.svg/1024px-Barmenia_logo.svg.png" 
-         alt="Barmenia Logo" class="logo">
-  </header>
-
-  <section class="hero">
-    <h1>Gesunde Zähne, gesundes Lächeln</h1>
-    <p>Rundum-Schutz für Ihre Zahngesundheit</p>
-    <a href="#leistungen" class="btn-primary">Jetzt mehr erfahren</a>
-    
-  </section>
-
-  <section id="leistungen">
-    <h2>Unsere Leistungen</h2>
-    <div class="services">
-      <div class="service">
-        <i class="fas fa-tooth fa-2x"></i>
-        <h3>Zahnersatz</h3>
-        <p>Kostenübernahme für Kronen, Brücken, Implantate.</p>
-      </div>
-      <div class="service">
-        <i class="fas fa-heartbeat fa-2x"></i>
-        <h3>Prophylaxe</h3>
-        <p>Regelmäßige Zahnreinigung und Vorsorge.</p>
-      </div>
-      <div class="service">
-        <i class="fas fa-ambulance fa-2x"></i>
-        <h3>Notfall</h3>
-        <p>Zahnärztliche Notfallversorgung rund um die Uhr.</p>
-      </div>
-    </div>
-  </section>
-  <section class="info">
-    <h2>Was ist eine Zahnzusatzversicherung?</h2>
-    <p>Eine Zahnzusatzversicherung ist eine private Ergänzung zur gesetzlichen Krankenversicherung.
-    Sie übernimmt Kosten, die von der Krankenkasse nicht gezahlt werden, insbesondere für hochwertigen Zahnersatz
-    und spezielle zahnärztliche Behandlungen.</p>
-  </section>
-
-  <section class="leistungen">
-    <h2>Unsere Leistungen</h2>
-    <div class="cards">
-      <div class="card">
-        <i class="fas fa-tooth fa-2x"></i>
-        <h3>Zahnersatz</h3>
-        <p>Kostenübernahme für Kronen, Brücken, Implantate und mehr.</p>
-      </div>
-      <div class="card">
-        <i class="fas fa-shield-alt fa-2x"></i>
-        <h3>Prophylaxe</h3>
-        <p>Schutz vor hohen Zahnbehandlungskosten durch Vorsorge.</p>
-      </div>
-      <div class="card">
-        <i class="fas fa-clock fa-2x"></i>
-        <h3>Ohne Wartezeit</h3>
-        <p>Sofortiger Versicherungsschutz ab Vertragsbeginn.</p>
-      </div>
-    </div>
-
-    <div class="sub-cards">
-      <div>
-        <h3>Kieferorthopädie</h3>
-        <p>Finanzielle Unterstützung bei Zahnspangen für Kinder und Jugendliche.</p>
-      </div>
-      <div>
-        <h3>Kieferchirurgie</h3>
-        <p>Finanzielle Hilfe bei zahnärztlichen Operationen für alle Altersgruppen.</p>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Barmenia</p>
-    <a href="#">Impressum</a> | <a href="#">Datenschutz</a>
-  </footer>
-
-  <div class="mobile-nav">
-    <a href="#"><i class="fas fa-phone"></i><span>Kontakt</span></a>
-    <a href="#"><i class="fas fa-search"></i><span>Suche</span></a>
-    <a href="#"><i class="fas fa-bars"></i><span>Produkte</span></a>
-    <a href="#"><i class="fas fa-user"></i><span>Meine Barmenia</span></a>
-    <a href="#"><i class="fas fa-map-marker-alt"></i><span>Vor Ort</span></a>
-  </div>
-
-  <div class="floating-buttons">
-    <button onclick="toggleContactPanel()"><i class="fas fa-phone"></i></button>
-    <button onclick="toggleContactPanel()"><i class="fas fa-map-marker-alt"></i></button>
-    <button onclick="toggleContactPanel()"><i class="fas fa-info-circle"></i></button>
-  </div>
-  <div class="contact-panel" id="contactPanel">
-    <h3>Ihr Kontakt</h3>
-    <p><strong>Barmenia Kundenberatung</strong></p>
-    <p>Rufen Sie uns an oder vereinbaren Sie einen Rückruf, wir beraten Sie gerne auch telefonisch.</p>
-    <p><strong>0202 438-2906</strong><br>Mo. - Fr. 08:00 - 20:00 Uhr<br>Sa. 09:00 - 15:00 Uhr</p>
-    <a href="#">Kontaktformular</a><br>
-    <a href="#">Alle Servicenummern</a>
-  </div>
-<script>
-function toggleContactPanel() {
-  const panel = document.getElementById('contactPanel');
-  panel.classList.toggle('open');
-}
-</script>
+    <header>
+        <div class="logo">Barmenia</div>
+        <nav>
+            <a href="#">Startseite</a>
+            <a href="#">Über uns</a>
+            <a href="#">Leistungen</a>
+            <a href="#">FAQ</a>
+            <a href="#">Kontakt</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Gesunde Zähne, gesundes Lächeln</h1>
+            <p>Rundum-Schutz für Ihre Zahngesundheit</p>
+            <a href="#" class="cta">Jetzt mehr erfahren</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Barmenia</p>
+    </footer>
 </body>
-
 </html>
