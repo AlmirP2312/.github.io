@@ -1,94 +1,48 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zahnzusatzversicherung</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <title>Barmenia Zahnzusatzversicherung</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <div class="logo">ZAHNZUSATZVERSICHERUNG</div>
-      <nav>
-        <a href="#">Startseite</a>
-        <a href="#">Über uns</a>
-        <a href="#">Leistungen</a>
-        <a href="#">FAQ</a>
-        <a href="#">Kontakt</a>
-      </nav>
-    </div>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Barmenia_logo.svg/1024px-Barmenia_logo.svg.png" 
+         alt="Barmenia Logo" class="logo">
   </header>
 
   <section class="hero">
-    <div class="hero-text">
-      <h1>Sicheres Lächeln<br> beginnt mit dem<br> richtigen Schutz</h1>
-      <p>Eine Zahnzusatzversicherung sorgt für umfassenden Schutz und deckt hohe Kosten ab, damit Sie sorgenfrei lächeln können.</p>
-      <a class="cta-button" href="#">Jetzt Beitrag berechnen</a>
-    </div>
-    <div class="hero-image">
-      <img src="https://raw.githubusercontent.com/almirp2312/assets/main/zahnfrau.jpg" alt="Lächelnde Frau" />
-    </div>
+    <h1>Gesunde Zähne, gesundes Lächeln</h1>
+    <p>Rundum-Schutz für Ihre Zahngesundheit</p>
+    <a href="#leistungen" class="btn-primary">Jetzt mehr erfahren</a>
+    <img src="https://images.pexels.com/photos/3845768/pexels-photo-3845768.jpeg?auto=compress&cs=tinysrgb&h=500" alt="Frau lächelt">
   </section>
 
-  <section class="features">
-    <div class="feature-box">
-      <img src="https://img.icons8.com/ios-filled/50/1E3A8A/tooth.png" />
-      <h3>Umfassender Schutz</h3>
-      <p>Absicherung für Zahnersatz, Prophylaxe und Kieferorthopädie</p>
-    </div>
-    <div class="feature-box">
-      <img src="https://img.icons8.com/ios-filled/50/1E3A8A/euro-pound-exchange.png" />
-      <h3>Hohe Kostenübernahme</h3>
-      <p>Erstattung von bis zu 100% der Kosten für zahnärztliche Behandlungen</p>
-    </div>
-    <div class="feature-box">
-      <img src="https://img.icons8.com/ios-filled/50/1E3A8A/time.png" />
-      <h3>Keine Wartezeiten</h3>
-      <p>Leistungen sind sofort verfügbar, ohne lange Wartezeiten</p>
-    </div>
-  </section>
-
-  <section class="info">
-    <h2>Was ist eine Zahnzusatzversicherung?</h2>
-    <p>Eine Zahnzusatzversicherung ist eine private Ergänzung zur gesetzlichen Krankenversicherung. Sie übernimmt Kosten, die von der Krankenkasse nicht gedeckt werden, insbesondere für hochwertigen Zahnersatz und spezielle zahnärztliche Behandlungen.</p>
-  </section>
-
-  <section class="leistungen">
+  <section id="leistungen">
     <h2>Unsere Leistungen</h2>
-    <div class="leistungskarten">
-      <div class="card">
-        <img src="https://img.icons8.com/ios-filled/40/1E3A8A/tooth.png" />
+    <div class="services">
+      <div class="service">
+        <i class="fas fa-tooth fa-2x"></i>
         <h3>Zahnersatz</h3>
-        <p>Kostenübernahme für Kronen, Brücken, Implantate und mehr</p>
+        <p>Kostenübernahme für Kronen, Brücken, Implantate.</p>
       </div>
-      <div class="card">
-        <img src="https://img.icons8.com/ios-filled/40/1E3A8A/toothbrush.png" />
+      <div class="service">
+        <i class="fas fa-heartbeat fa-2x"></i>
         <h3>Prophylaxe</h3>
-        <p>Schutz vor hohen persönlichen Kosten für Vorsorgeuntersuchungen</p>
+        <p>Regelmäßige Zahnreinigung und Vorsorge.</p>
       </div>
-      <div class="card">
-        <img src="https://img.icons8.com/ios-filled/40/1E3A8A/checked--v1.png" />
-        <h3>Ohne Wartezeit</h3>
-        <p>Sofortiger Versicherungsschutz ab Vertragsbeginn</p>
-      </div>
-    </div>
-    <div class="unterkarten">
-      <div>
-        <h4>Kieferorthopädie</h4>
-        <p>Finanzielle Unterstützung bei Zahnspangen für Kinder und Jugendliche</p>
-      </div>
-      <div>
-        <h4>Kieferchirurgie</h4>
-        <p>Finanzielle Unterstützung bei operativen Eingriffen im Kieferbereich</p>
+      <div class="service">
+        <i class="fas fa-ambulance fa-2x"></i>
+        <h3>Notfall</h3>
+        <p>Zahnärztliche Notfallversorgung rund um die Uhr.</p>
       </div>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 ZahnPlus</p>
-    <p><a href="#">Impressum</a> | <a href="#">Datenschutz</a></p>
+    <p>&copy; 2025 Barmenia</p>
+    <a href="#">Impressum</a> | <a href="#">Datenschutz</a>
   </footer>
 </body>
 </html>
