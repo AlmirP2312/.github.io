@@ -75,3 +75,66 @@ footer a {
   text-decoration: none;
   margin: 0 0.5rem;
 }
+
+.top-nav {
+  background: var(--dark-blue);
+  padding: 0.5rem;
+  text-align: center;
+}
+.top-nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.info {
+  text-align: center;
+  background: #ffffff;
+  padding: 3rem 2rem;
+}
+.info h2 {
+  font-size: 1.8rem;
+  color: var(--dark-blue);
+  margin-bottom: 1rem;
+}
+.info p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.leistungen {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.leistungen h2 {
+  color: var(--dark-blue);
+  margin-bottom: 2rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 260px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.card i {
+  color: var(--primary-blue);
+  margin-bottom: 0.75rem;
+}
+.sub-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.sub-cards div {
+  max-width: 300px;
+}
