@@ -7,8 +7,66 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Willkommen bei ZahnPlus</h1>
-  <p>Dies ist die Startseite Ihrer Zahnzusatzversicherung.</p>
-  <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
+  <header>
+    <h1>ZahnPlus</h1>
+    <nav>
+      <a href="#home">Startseite</a> |
+      <a href="#about">Über uns</a> |
+      <a href="#leistungen">Leistungen</a> |
+      <a href="#faq">FAQ</a> |
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Ihr Lächeln in besten Händen</h2>
+    <p>Mit ZahnPlus Zahnzusatzversicherung sorgenfrei lächeln – umfassender Schutz für Ihre Zähne.</p>
+    <a href="#kontakt">Jetzt informieren</a>
+  </section>
+
+  <section id="about">
+    <h2>Über uns</h2>
+    <p>ZahnPlus ist Ihr zuverlässiger Partner für Zahnzusatzversicherungen. Mit jahrelanger Erfahrung und individuellen Tarifen sorgen wir für Ihr bestes Lächeln.</p>
+  </section>
+
+  <section id="leistungen">
+    <h2>Unsere Leistungen</h2>
+    <ul>
+      <li><strong>Prophylaxe:</strong> Professionelle Zahnreinigung & Vorsorge</li>
+      <li><strong>Zahnersatz:</strong> Kronen, Brücken, Implantate</li>
+      <li><strong>Behandlungen:</strong> Füllungen, Wurzelbehandlungen</li>
+      <li><strong>Kieferorthopädie:</strong> für Kinder & Erwachsene</li>
+    </ul>
+  </section>
+
+  <section id="faq">
+    <h2>Häufige Fragen</h2>
+    <details>
+      <summary>Gibt es Wartezeiten?</summary>
+      <p>Nein – bei ZahnPlus beginnen Leistungen ab dem ersten Tag!</p>
+    </details>
+    <details>
+      <summary>Wie reiche ich Rechnungen ein?</summary>
+      <p>Einfach über unser Online-Portal oder per E-Mail.</p>
+    </details>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <form>
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+      <label for="email">E-Mail:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+      <label for="message">Nachricht:</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br />
+      <button type="submit">Absenden</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ZahnPlus GmbH</p>
+    <p><a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutzerklärung</a></p>
+  </footer>
 </body>
 </html>
