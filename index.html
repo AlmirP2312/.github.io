@@ -3,70 +3,89 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ZahnPlus – Zahnzusatzversicherung</title>
+  <title>Zahnzusatzversicherung – ZahnPlus</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <h1>ZahnPlus</h1>
-    <nav>
-      <a href="#home">Startseite</a> |
-      <a href="#about">Über uns</a> |
-      <a href="#leistungen">Leistungen</a> |
-      <a href="#faq">FAQ</a> |
-      <a href="#kontakt">Kontakt</a>
-    </nav>
+  <header class="main-header">
+    <div class="container">
+      <h1>ZAHNZUSATZVERSICHERUNG</h1>
+      <nav>
+        <a href="#">Startseite</a>
+        <a href="#">Über uns</a>
+        <a href="#">Leistungen</a>
+        <a href="#">FAQ</a>
+        <a href="#">Kontakt</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="home">
-    <h2>Ihr Lächeln in besten Händen</h2>
-    <p>Mit ZahnPlus Zahnzusatzversicherung sorgenfrei lächeln – umfassender Schutz für Ihre Zähne.</p>
-    <a href="#kontakt">Jetzt informieren</a>
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Sicheres Lächeln<br> beginnt mit dem<br> richtigen Schutz</h2>
+      <p>Eine Zahnzusatzversicherung sorgt für umfassenden Schutz und deckt hohe Kosten ab, damit Sie sorgenfrei lächeln können.</p>
+      <a class="cta-button" href="#">Jetzt Beitrag berechnen</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://i.imgur.com/9u3kBTk.png" alt="Lächelnde Frau" />
+    </div>
   </section>
 
-  <section id="about">
-    <h2>Über uns</h2>
-    <p>ZahnPlus ist Ihr zuverlässiger Partner für Zahnzusatzversicherungen. Mit jahrelanger Erfahrung und individuellen Tarifen sorgen wir für Ihr bestes Lächeln.</p>
+  <section class="vorteile">
+    <div class="box">
+      <img src="https://img.icons8.com/ios-filled/50/000000/tooth.png" />
+      <h3>Umfassender Schutz</h3>
+      <p>Absicherung für Zahnersatz, Prophylaxe und Kieferorthopädie</p>
+    </div>
+    <div class="box">
+      <img src="https://img.icons8.com/ios-filled/50/000000/euro-pound-exchange.png" />
+      <h3>Hohe Kostenübernahme</h3>
+      <p>Erstattung von bis zu 100% der Kosten für zahnärztliche Behandlungen</p>
+    </div>
+    <div class="box">
+      <img src="https://img.icons8.com/ios-filled/50/000000/time.png" />
+      <h3>Keine Wartezeiten</h3>
+      <p>Leistungen sind sofort verfügbar, ohne lange Wartezeiten</p>
+    </div>
   </section>
 
-  <section id="leistungen">
+  <section class="info">
+    <h2>Was ist eine Zahnzusatzversicherung?</h2>
+    <p>Eine Zahnzusatzversicherung ist eine private Ergänzung zur gesetzlichen Krankenversicherung. Sie übernimmt Kosten, die von der Krankenkasse nicht gedeckt werden, insbesondere für hochwertigen Zahnersatz und spezielle zahnärztliche Behandlungen.</p>
+  </section>
+
+  <section class="leistungen">
     <h2>Unsere Leistungen</h2>
-    <ul>
-      <li><strong>Prophylaxe:</strong> Professionelle Zahnreinigung & Vorsorge</li>
-      <li><strong>Zahnersatz:</strong> Kronen, Brücken, Implantate</li>
-      <li><strong>Behandlungen:</strong> Füllungen, Wurzelbehandlungen</li>
-      <li><strong>Kieferorthopädie:</strong> für Kinder & Erwachsene</li>
-    </ul>
-  </section>
-
-  <section id="faq">
-    <h2>Häufige Fragen</h2>
-    <details>
-      <summary>Gibt es Wartezeiten?</summary>
-      <p>Nein – bei ZahnPlus beginnen Leistungen ab dem ersten Tag!</p>
-    </details>
-    <details>
-      <summary>Wie reiche ich Rechnungen ein?</summary>
-      <p>Einfach über unser Online-Portal oder per E-Mail.</p>
-    </details>
-  </section>
-
-  <section id="kontakt">
-    <h2>Kontakt</h2>
-    <form>
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" required /><br />
-      <label for="email">E-Mail:</label><br />
-      <input type="email" id="email" name="email" required /><br />
-      <label for="message">Nachricht:</label><br />
-      <textarea id="message" name="message" rows="5" required></textarea><br />
-      <button type="submit">Absenden</button>
-    </form>
+    <div class="cards">
+      <div class="card">
+        <h3>Zahnersatz</h3>
+        <p>Kostenübernahme für Kronen, Brücken, Implantate und mehr</p>
+      </div>
+      <div class="card">
+        <h3>Prophylaxe</h3>
+        <p>Schutz vor hohen persönlichen Kosten für Vorsorgeuntersuchungen</p>
+      </div>
+      <div class="card">
+        <h3>Ohne Wartezeit</h3>
+        <p>Sofortiger Versicherungsschutz ab Vertragsbeginn</p>
+      </div>
+    </div>
+    <div class="unterkarten">
+      <div>
+        <h4>Kieferorthopädie</h4>
+        <p>Finanzielle Unterstützung bei Zahnspangen für Kinder und Jugendliche</p>
+      </div>
+      <div>
+        <h4>Kieferchirurgie</h4>
+        <p>Finanzielle Unterstützung bei operativen Eingriffen im Kieferbereich</p>
+      </div>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 ZahnPlus GmbH</p>
-    <p><a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutzerklärung</a></p>
+    <p>&copy; 2025 ZahnPlus</p>
+    <p><a href="#">Impressum</a> | <a href="#">Datenschutz</a></p>
   </footer>
 </body>
 </html>

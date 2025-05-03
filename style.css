@@ -1,6 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
-  font-family: Arial, sans-serif;
-  background: #f9f9f9;
-  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  color: #1a1a1a;
+  background: #fff;
+  line-height: 1.6;
+}
+header.main-header {
+  background: #f3f7fb;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+header h1 {
+  color: #003366;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+header nav a {
+  margin: 0 1rem;
+  color: #003366;
+  text-decoration: none;
+  font-weight: 600;
+}
+.hero {
+  display: flex;
+  flex-wrap: wrap;
   padding: 2rem;
+  background: #f9fcff;
+  align-items: center;
+  justify-content: space-around;
+}
+.hero-text {
+  flex: 1;
+  max-width: 500px;
+}
+.hero-text h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 1rem;
+}
+.hero-text p {
+  margin-bottom: 1.5rem;
+}
+.cta-button {
+  background: #003366;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.hero-image img {
+  max-width: 300px;
+  height: auto;
+}
+.vorteile {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #fff;
+}
+.vorteile .box {
+  max-width: 250px;
+}
+.vorteile img {
+  height: 40px;
+  margin-bottom: 0.5rem;
+}
+.info {
+  background: #f0f4f9;
+  padding: 2rem;
+  text-align: center;
+}
+.leistungen {
+  padding: 2rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.card {
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 6px;
+  max-width: 280px;
+  text-align: center;
+}
+.unterkarten {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.unterkarten div {
+  max-width: 300px;
+  text-align: center;
+  margin: 1rem;
+}
+footer {
+  text-align: center;
+  background: #003366;
+  color: #fff;
+  padding: 1rem;
+}
+footer a {
+  color: #fff;
+  text-decoration: underline;
 }
