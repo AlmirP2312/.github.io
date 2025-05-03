@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <aside class="desktop-sidebar">
+  <!-- removed sidebar -->
     <a href="#"><i class="fas fa-phone"></i> Kontakt</a>
     <a href="#"><i class="fas fa-search"></i> Suche</a>
     <a href="#"><i class="fas fa-bars"></i> Produkte</a>
@@ -106,6 +106,26 @@
     <a href="#"><i class="fas fa-user"></i><span>Meine Barmenia</span></a>
     <a href="#"><i class="fas fa-map-marker-alt"></i><span>Vor Ort</span></a>
   </div>
+
+  <div class="floating-buttons">
+    <button onclick="toggleContactPanel()"><i class="fas fa-phone"></i></button>
+    <button onclick="toggleContactPanel()"><i class="fas fa-map-marker-alt"></i></button>
+    <button onclick="toggleContactPanel()"><i class="fas fa-info-circle"></i></button>
+  </div>
+  <div class="contact-panel" id="contactPanel">
+    <h3>Ihr Kontakt</h3>
+    <p><strong>Barmenia Kundenberatung</strong></p>
+    <p>Rufen Sie uns an oder vereinbaren Sie einen Rückruf, wir beraten Sie gerne auch telefonisch.</p>
+    <p><strong>0202 438-2906</strong><br>Mo. - Fr. 08:00 - 20:00 Uhr<br>Sa. 09:00 - 15:00 Uhr</p>
+    <a href="#">Kontaktformular</a><br>
+    <a href="#">Alle Servicenummern</a>
+  </div>
+<script>
+function toggleContactPanel() {
+  const panel = document.getElementById('contactPanel');
+  panel.classList.toggle('open');
+}
+</script>
 </body>
 
 </html>
