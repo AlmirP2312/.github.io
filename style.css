@@ -185,3 +185,44 @@ footer a {
   font-size: 1.2rem;
   margin-bottom: 0.25rem;
 }
+
+body {
+  background-color: #00B4E0;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.desktop-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 100vh;
+  background: #D6FF00;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 1rem;
+  z-index: 999;
+}
+.desktop-sidebar a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.desktop-sidebar i {
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .desktop-sidebar {
+    display: flex;
+  }
+  .mobile-nav {
+    display: none;
+  }
+}
